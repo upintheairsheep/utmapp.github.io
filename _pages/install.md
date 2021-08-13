@@ -4,7 +4,7 @@ title: Install
 include_in_header: true
 ---
 
-UTM works on all devices running iOS 11 or higher if jailbroken. UTM can also be run [tethered to Xcode][9] on non-jailbroken devices but this is only recommended for advanced users. UTM runs untethered on non-jailbroken devices with limited compatibility depending on your iOS version and device processor. See the list below for more details.
+UTM works on all devices running iOS 11 or higher if jailbroken. UTM can also be run [semi-tethered][9] on non-jailbroken devices. UTM runs untethered on some non-jailbroken devices with limited compatibility depending on your iOS version and device processor. See the list below for more details.
 
 ## Non-Jailbroken Devices
 
@@ -17,7 +17,7 @@ The recommended way for non-jailbreak users is to use [AltStore][4] which manage
 
 **If you are running iOS 14.2, 14.3**: UTM works with sideloading (non-jailbroken) if your device has an Apple A12 chip or newer. Otherwise, you need to be jailbroken.
 
-**If you are running iOS 14.0, 14.1, 14.4, or higher**: UTM only works if you are jailbroken.
+**If you are running iOS 14.0, 14.1, 14.4, or higher**: UTM works if you are jailbroken or [semi-tethered with Jitterbug][9]. "Semi-tethered" means either tethered to a Mac/PC, to another iOS device with Wifi sharing, or to itself (one iOS device running both Jitterbug and UTM) through a on-device VPN profile.
 
 ### AltStore Repository
 
@@ -60,4 +60,4 @@ Please [join our Discord][3] for help and support.
   [6]: https://repo.dynastic.co/package/altdaemon
   [7]: cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.getutm.app/
   [8]: cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.akemi.ai/
-  [9]: https://github.com/utmapp/UTM/blob/master/Documentation/TetheredLaunch.md
+  [9]: https://github.com/osy/Jitterbug
