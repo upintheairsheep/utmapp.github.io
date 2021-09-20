@@ -15,9 +15,9 @@ UTM works on all devices running iOS 11 or higher if jailbroken. UTM can also be
 
 The recommended way for non-jailbreak users is to use [AltStore][4] which manages re-signing automatically.
 
-**If you are running iOS 14.2, 14.3**: UTM works with sideloading (non-jailbroken) if your device has an Apple A12 chip or newer. Otherwise, you need to be jailbroken.
+**If you are running iOS 14.2, 14.3**: UTM works with sideloading (non-jailbroken) if your device has an Apple A12 chip or newer. Otherwise, keep reading.
 
-**If you are running iOS 14.0, 14.1, 14.4, or higher**: UTM works if you are jailbroken or [semi-tethered with Jitterbug][9]. "Semi-tethered" means either tethered to a Mac/PC, to another iOS device with Wifi sharing, or to itself (one iOS device running both Jitterbug and UTM) through a on-device VPN profile.
+**If you are running iOS 14.0, 14.1, 14.4, or higher**: UTM works if you are jailbroken or [semi-tethered with Jitterbug][9] or AltJIT. "Semi-tethered" means either tethered to a Mac/PC, to another iOS device with Wifi sharing, or to itself (one iOS device running both Jitterbug/AltJIT and UTM) through a on-device VPN profile.
 
 ### AltStore Repository
 
