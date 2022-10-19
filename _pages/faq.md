@@ -7,8 +7,6 @@ include_in_header: true
 * TOC
 {:toc}
 
-# General
-
 ## What is this?
 
 UTM is an app for running other operating systems on your iPhone or iPad. It is **not** for running iOS on other systems. This allows you, among other things, to run Windows or Linux on your iOS device at a usable speed.
@@ -35,42 +33,6 @@ The lack of hardware virtualization on Apple A-chips means that even for ARM cod
 
 We need all the help we can get! We need both people to work on improving/optimizing the qemu backend as well as people working on the UI and front-end. You can check out our [Github](https://github.com/utmapp/) and join our [Discord](https://discord.gg/UV2RUgD).
 
-# Usage
+## Where do I get support?
 
-## How do I create a VM?
-
-Check out [the user guide]({% link _pages/guide.md %}) for usage directions. Check out [this page](https://mac.getutm.app/gallery) for some prebuilt VMs you can try.
-
-## Help! I hid the toolbar!
-
-Use a three-finger swipe down gesture to get it to re-appear.
-
-## I get an error message about 'no bootable device'
-
-You either forgot to add an ISO OR you did not add it as a 'CD/DVD Image' OR your ISO is not bootable.
-
-## Linux boot fails early with a crash message
-
-It's highly likely that you did not allocate enough RAM for the Linux Kernel/initrd to decompress.
-
-## I get an error message about 'Guest Disabled Display'
-
-This is expected on ARM systems before the display is set up. You just have to wait until the OS sets up the display late in the boot process. On older devices, this may take a very long time.
-
-## The VM is stuck booting
-
-On older systems booting any VM may take a very long time. Other common issues are: not allocating enough RAM, allocating too much RAM and allocating more cores than you have on your device. Note that if you are emulating i386 or x86_64, you *must* configure the VM with 1 core.
-
-## How much RAM can I use for a VM?
-
-A good rule of thumb is to allocate no more than 1/4 of your device's total memory. iOS will kill any app that uses 40-50% or more of the total system memory. Additionally, UTM/QEMU consumes some memory itself. If you keep seeing the low memory warning, you should lower the amount allocated.
-
-# Support
-
-## I found a bug/crash or something else unexpected
-
-Please open an issue on [Github](https://github.com/utmapp/) so it can be tracked. Be sure to follow the template when creating an issue!
-
-## I need help with UTM
-
-You can join the community run [Discord](https://discord.gg/UV2RUgD). Please read and follow the rules.
+Check out [https://docs.getutm.app](https://docs.getutm.app)
